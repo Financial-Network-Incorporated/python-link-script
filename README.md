@@ -23,5 +23,5 @@ goto main
 
 3.  Save the file to the same directory as the python file and save as run.bat (.bat file extension is important here. You may need to select 'any' for the file type dropdown.)
     - If you prefer, you can place the `link.py` and `run.bat` files in your directory holding all your repositories, and create a shortcut to `run.bat`.
-    - When running the script for the first time, a config file will be created. There, you can enter the _WSL_ directory plainly where your repositories are stored and the script can run from another location.
+    - When running the script for the first time, a config file will be created. There, you can enter the path directory plainly where your repositories are stored and the script can run from another location.
 4.  Open an instance of WSL and ensure both **python3** and **yarn** are installed. You can do this by typing `python3 -V` and `yarn -V`. If a version is not listed, follow the installation instructions here: [python](https://docs.python-guide.org/starting/install3/linux/) and [yarn](https://yarnpkg.com/getting-started/install).
